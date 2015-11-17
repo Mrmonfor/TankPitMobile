@@ -1,0 +1,190 @@
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+
+tools:context="com.example.matt.tankpit.MainActivity"
+    android:baselineAligned="true"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_column="10"
+            android:src="@drawable/header"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/button2"
+            android:layout_column="100"
+            android:background="#ff184d18"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NEWS"
+            android:id="@+id/button3"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="BULLETIN BOARD"
+            android:id="@+id/button4"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TOURNY TIMES"
+            android:id="@+id/button5"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TOURNY WINNERS"
+            android:id="@+id/button"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="AWARD WINNERS"
+            android:id="@+id/button6"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TOP25"
+            android:id="@+id/button7"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/button8"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SETTINGS"
+            android:id="@+id/button9"
+            android:layout_column="100"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:background="#ff184d18"
+            android:layout_margin="@dimen/abc_control_inset_material"
+            android:textStyle="bold"
+            android:textColor="#ffbababa"
+            android:layout_weight="1" />
+    </TableRow>
+</TableLayout>
+
